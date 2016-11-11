@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:fillEnabled="true"
+    android:shareInterpolator="true"
+     android:fillBefore="true"
+     android:fillAfter="false"
+    android:interpolator="@android:anim/bounce_interpolator">
+
+
+    <translate android:fromXDelta="-20%"
+               android:fromYDelta="-30%"
+               android:toXDelta="80%p"
+               android:toYDelta="80%"
+               android:duration="2000"
+               android:repeatCount="infinite"
+               android:repeatMode="reverse"/>
+
+    <!--
+    fromXDelta 从哪里开始x轴
+    fromYDelta 从哪里开始y轴
+    repeatCount="infinite" 播放次数 infinite 无限
+    repeatMode   reverse    播放模式  reverse 反方向进行，播放完了就，从播放完的地方倒着回到开始地址, restart 每次都从开始的地方开始播放
+    -->
+
+</set>
